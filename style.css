@@ -1,4 +1,21 @@
-body{
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>
+     Web Extension
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <input type="text" id="input-el">
+    <button id="input-btn">SAVE INPUT</button>
+    <button id="delete-btn">DELETE ALL</button>
+    <ul id="ul-el"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>body{
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
