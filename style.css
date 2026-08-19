@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <title>
-     Web Extension
-    </title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-    <input type="text" id="input-el">
-    <button id="input-btn">SAVE INPUT</button>
-    <button id="delete-btn">DELETE ALL</button>
-    <ul id="ul-el"></ul>
-    <script src="index.js"></script>
-  </body>
-</html>body{
+body{
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +13,7 @@
   outline: none;
 }
 
-#input-btn{
+#input-btn ,#tab-btn {
   padding: 10px 15px;
   margin-top: 10px;
   background-color: #5f9341;
@@ -56,7 +39,7 @@ li a {
     color: #5f9341;
 }
 
-button {
+#delete-btn {
   padding: 9px 15px;
   margin-top: 10px;
   background-color: #ffffff;
@@ -66,94 +49,4 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 15px;
-}body{
-  margin: 0;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  min-width: 400px;
-}
-
-#input-el{
-  width: 100%;
-  box-sizing: border-box;
-  padding: 5px 10px;
-  border: 1px solid #5f9341;
-  outline: none;
-}
-
-#input-btn{
-  padding: 10px 15px;
-  margin-top: 10px;
-  background-color: #5f9341;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-ul {
-    margin-top: 20px;
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-top: 5px;
-}
-
-li a {
-    color: #5f9341;
-}
-
-button {
-  padding: 9px 15px;
-  margin-top: 10px;
-  background-color: #ffffff;
-  color: #5f9341;
-  border: 1px solid #5f9341;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-}body{
-  margin: 0;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  min-width: 400px;
-}
-
-#input-el{
-  width: 100%;
-  box-sizing: border-box;
-  padding: 5px 10px;
-  border: 1px solid #5f9341;
-  outline: none;
-}
-
-#input-btn{
-  padding: 10px 15px;
-  margin-top: 10px;
-  background-color: #5f9341;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-ul {
-    margin-top: 20px;
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-top: 5px;
-}
-
-li a {
-    color: #5f9341;
 }
